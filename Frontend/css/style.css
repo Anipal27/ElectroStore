@@ -1,0 +1,68 @@
+
+.Banner {
+    background: #0f0f0f; 
+    padding: 70px 80px;
+}
+
+/* Container */
+.Banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* LEFT (TEXT) */
+.Banner-container div:first-child {
+    flex: 1;
+}
+
+.Banner-container h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.Banner-container p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* BUTTON */
+.Banner-container button {
+    background: #3A86FF;
+    color: #fff;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.Banner-container button:hover {
+    background: #2f6fe0;
+    transform: translateY(-2px);
+}
+
+/* RIGHT (IMAGE) */
+.Banner-container div:last-child {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Banner-container img {
+    width: 85%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+
+.Banner-container img:hover {
+    transform: scale(1.03);
+}
